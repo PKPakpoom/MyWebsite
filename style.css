@@ -27,23 +27,7 @@
     padding-right: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 12px 12px 12px 12px;
-    -webkit-border-radius: 12px 12px 12px 12px;
-    -moz-border-radius: 12px 12px 12px 12px;
-    background: whitesmoke;
-    opacity: 0.75;
-}
-
-.bbox {
-    position: absolute;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    top: 60%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 12px 12px 12px 12px;
