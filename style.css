@@ -8,6 +8,15 @@
     font-family: 'Kanit', sans-serif;
 }
 
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+.example {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .abox {
     position: absolute;
     padding-left: 25px;
@@ -21,6 +30,7 @@
     -webkit-border-radius: 12px 12px 12px 12px;
     -moz-border-radius: 12px 12px 12px 12px;
     background: white;
+    opacity: 1;
     z-index: 3;
 }
 
@@ -70,3 +80,6 @@ header {
     z-index: 1;
   }
 
+.collapse.navbar-collapse {
+  margin-left: 6vw;
+}
